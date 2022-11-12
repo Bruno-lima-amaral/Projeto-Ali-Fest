@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    z-index: 999999;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    border-radius: 3px;
+} 
+.my-2 {
+    display: flex !important;
+}
+.logo-header{
+    height: 10vh;
+    padding-left: 3vw;
+    margin-left: 3%;
+}
+
+
+.form-inline {
+    display: flex;
+    margin-right: 2.5vw;
+}
+
+.form-inline input {
+    border-radius: 0.25rem;
+    border: none;
+    border: solid 0.9px grey;
+    width: 30vw;
+}
+
+.form-inline input::placeholder {
+    padding-left: 1vw;
+}
+
+.btn-search{
+    margin-left: 5%;
+    background-color: #f5f8f8;
+    width: 7vw;
+    height: 5vh;
+}
+.btn-search:hover{
+    background-color: #f9af50;
+    color: #fff;
+    border: none;
+}
+
+.navbar-nav {
+    margin-left: 40%;
+    position: fixed;
+    z-index: 9999;
+}
+
+#icon-profile {
+    margin-right: 3vw;
+    font-size: 1.5em;
+    color: #000;;
+}
+
+#icon-buy {
+    margin-right: 3vw;
+    font-size: 1.5em;
+    color: #000;
+}
+#icon-buy:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.3s  ease-in-out;
+}
+#icon-profile:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.3s  ease-in-out;
+}
+
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+#bara{
+    border: solid 4px #f28e0a;
+}
+.nav{
+    background-color: #fffbfb;
+}
+
+.informacao {
+    /* background-color: #f8f9fa; */
+    background-color: #f9af50;
+    height: 4vw;
+}
+
+.informacao ul {
+    display: flex;
+    list-style: none;
+}
+.lista-opcao li{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+#opcao2 {
+    color: rgb(0, 0, 0);
+    margin-left: 35vw;
+    margin-top: 1vw;
+}
+
+#opcao1 {
+    margin-top: 1vw;
+    color: #000;
+}
+
+#opcao1 a {
+    text-decoration: none;
+}
+
+#opcao2 a {
+    text-decoration: none;
+}
+
+#opcao1 a:hover {
+    text-decoration: underline;
+}
+
+#opcao2 a:hover {
+    text-decoration: underline;
+}
+
+#icon-rede {
+    margin-left: 28vw;
+    display: flex;
+}
+
+#icon-rede a {
+    color: rgb(0, 0, 0);
+}
+
+#icon-rede i {
+    font-size: 1.5em;
+}
+
+#icon i {
+    padding: 0 2vw 0 2vw;
+    padding-top: 22.9%;
+}
+
+#facebook i {
+    padding-top: 70%;
+}
+
+#whatsapp i {
+    padding-top: 74%;
+}
+
+#icone a:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.3s  ease-in-out;
+}
+
+.body {
+    background-color: #fff;
+    
+    
+}
+
+.div-Banner{
+    margin-top: 7%;
+    /* background-image: url("https://claudia.abril.com.br/wp-content/uploads/2016/10/festa-aniversario-infantil.jpg");  */
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    opacity: 10;
+    z-index:3;
+    top: 0;
+}
+.div-Banner img{
+     width: 100%;
+    height: 110vh;
+}
+
+.texto-banner{
+    text-align: center;
+    color: #f28e0a;
+    background-color: #f8f8f8;
+    border-radius: 40px;
+    border: solid 3px #f28e0a;
+    opacity: 0.8;
+    width: 45%;
+    margin-top: 15%;
+    padding: 2%;
+    margin-left: 28%;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.titulo-banner{
+   
+    font-size: 4vh;
+    
+}
+.subtexto-banner{
+    font-size: 2vh;
+  
+}
+/* .banner-img{
+    
+} */
+
+/*
+                   PRODUTOS
+*/
+ .Q{
+    background-color: #f5f5f5;
+    margin-left: 15vw;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 100vh;
+    margin-bottom: 25%;
+    border: solid 4px #f9af50;
+    box-shadow: 0 0 2em gold;
+        
+}
+.produtos{
+    padding-top: 2%;
+    padding-right: 2%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+   
+}
+
+.k{
+    padding-top: 10%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content;
+    align-items: center;
+    padding: 3%;
+    list-style: none;
+    transform: translateX(-1%);
+    
+}
+.k-li{
+   width: 60%;
+}
+
+.item{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    transition: all 1.1s ;
+    border-radius: 10px;
+    border: solid 3px #f28e0a;
+    
+}
+.baloes{
+    margin-left: 45%;
+}
+.descartaveis{
+    margin: 0 20%;
+}
+.velas{
+    margin-right: 60%;
+}
+.brinquedos{
+    margin-left: 45%;
+}
+.corantes{
+    margin: 0 20%;
+}
+.formas{
+    margin-right: 60%;
+}
+.item:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s  ease-in-out;
+  
+   
+}
+
+/*
+                  FIM PRODUTOS
+*/
+
+/* .Q{
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.Q img{
+    height: 25vh;
+    border-radius: 6%;
+} */
+
+
+/*
+                 RODAPÉ
+*/
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    height: 25.5%;
+    background-color: #fff;
+}
+.rodape{
+   display: flex;
+    background-color: #f8f8f8;
+    
+}
+.footer-contato{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+}
+.footer-menu{
+    width: 50%;
+}
+.footer-logo{
+    margin-top: 3%;
+    margin-left: 15%; 
+    width: 25vh;
+}
+.h1-1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1%;
+    margin-left: 15%; 
+    font-size: 3vh;
+}
+.p-2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 2%;
+    margin-left: 15%; 
+
+
+}
+.p-3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15%; 
+}
+.p-4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15%; 
+}
+.p-5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 12%;
+}
+
+/*
+                FIM DO RODAPÉ
+*/
+
+/*
+                   MODAIS
+*/
+
+.modal-baloes{
+    height: 500px;
+    width: 500px;
+    background-color: #f28e0a;
+    position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+/*
+                  FIM MODAIS
+*/
+
